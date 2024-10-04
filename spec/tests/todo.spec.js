@@ -3,7 +3,7 @@ const app = require('../..');
 const { clearDatabase } = require('../../db.connection');
 
 const req= request(app)
-fdescribe("todo routes:",()=>{
+describe("todo routes:",()=>{
 let mockUser,userToken,todoInDB
     beforeAll(async()=>{
         mockUser={name:"Ali",email:"asd@asd.com",password:"1234"}
